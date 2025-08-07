@@ -66,14 +66,39 @@ export default function HomePage() {
     }
   ]
 
-  const categories = [
-    { name: "Sarees", image: "/placeholder.svg?height=400&width=300&text=Sarees+Category", link: "/collections?category=sarees" },
-    { name: "Suits", image: "/placeholder.svg?height=400&width=300&text=Suits+Category", link: "/collections?category=suits" },
-    { name: "Fabrics", image: "/placeholder.svg?height=400&width=300&text=Fabrics+Category", link: "/collections?category=fabrics" },
-    { name: "Dupattas", image: "/placeholder.svg?height=400&width=300&text=Dupattas+Category", link: "/collections?category=dupattas" },
-    { name: "Blouses", image: "/placeholder.svg?height=400&width=300&text=Blouses+Category", link: "/collections?category=blouses" },
-    { name: "Lehengas", image: "/placeholder.svg?height=400&width=300&text=Lehengas+Category", link: "/collections?category=lehengas" }
-  ]
+ const categories = [
+  {
+    name: "Sarees",
+    image: "https://varavastram.com/cdn/shop/files/31876506_Gold_0.jpg?v=1752052474&width=1445",
+    link: "/collections?category=sarees"
+  },
+  {
+    name: "Suits",
+    image: "https://cdn.shopify.com/s/files/1/0597/5592/1540/files/10753NAVYBLUEMAROON_main_669x892_14f0b1a3-af3b-4f86-a493-5717d1b5d17e_1024x1024.jpg?v=1721116395",
+    link: "/collections?category=suits"
+  },
+  {
+    name: "Fabrics",
+    image: "https://lh5.googleusercontent.com/dNSbiwc72WooqjoP6v0jT7ZJtmWFXSKppsYOt5CEIvY7Z_9GRmh-6yDX6N5TFv1SibH5Ps4IPkkwubbALF_l9eg0MRK5uq0y76Qbn3YPniDkgk4I5WiuztY5fCUNh_XOXhVa8gIS",
+    link: "/collections?category=fabrics"
+  },
+  {
+    name: "Dupattas",
+    image: "https://imagescdn.jaypore.com/img/app/product/3/39576428-11327689.jpg?w=500&auto=format",
+    link: "/collections?category=dupattas"
+  },
+  {
+    name: "Blouses",
+    image: "https://fabcurate.com/cdn/shop/files/BLOUSE0835_1.jpg?v=1710327872&width=1200",
+    link: "/collections?category=blouses"
+  },
+  {
+    name: "Lehengas",
+    image: "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/23518754/2023/6/3/03da58e0-c564-404f-ba84-2b201deb08ca1685791226037panchhiTealGold-TonedEmbellishedSequinnedSemi-StitchedLeheng1.jpg",
+    link: "/collections?category=lehengas"
+  }
+];
+
 
   const bestsellers = sampleProducts.slice(0, 6)
 
@@ -208,7 +233,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="aspect-[3/4] relative overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=800&width=600&text=Editorial+Lookbook+Minimal+Ethnic"
+                  src="https://infashionbusiness.com/admin_assets/images/products/infashion-1686244838.jpg"
                   alt="Editorial Lookbook"
                   fill
                   className="object-cover"
