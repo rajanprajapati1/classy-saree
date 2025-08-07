@@ -20,7 +20,7 @@ export default function HomePage() {
 
   const heroSlides = [
     {
-      image: "/placeholder.svg?height=800&width=1200&text=New+Festive+25+Collection+Editorial",
+      image: "https://ravya.co.in/cdn/shop/files/H12.jpg?v=1741271366&width=3600",
       title: "New Festive '25",
       subtitle: "Collection",
       description: "Timeless elegance meets contemporary design",
@@ -28,7 +28,7 @@ export default function HomePage() {
       link: "/collections?category=sarees"
     },
     {
-      image: "/placeholder.svg?height=800&width=1200&text=Modern+Suits+Editorial+Shoot",
+      image: "https://ravya.co.in/cdn/shop/files/H9.jpg?v=1741271684&width=3600",
       title: "Modern",
       subtitle: "Suits",
       description: "Redefining ethnic sophistication",
@@ -36,7 +36,7 @@ export default function HomePage() {
       link: "/collections?category=suits"
     },
     {
-      image: "/placeholder.svg?height=800&width=1200&text=Premium+Fabrics+Minimal+Editorial",
+      image: "https://nishasilkhandloom.com/wp-content/uploads/2025/01/Ace_Your_Saree_Banner_D.jpg",
       title: "Premium",
       subtitle: "Fabrics",
       description: "Curated from India's finest mills",
