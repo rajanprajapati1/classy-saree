@@ -122,7 +122,7 @@ export default function LoginPage() {
         {/* Logo */}
         <div className="text-center mb-8">
           <Link href="/" className="text-3xl font-serif font-bold text-rose-800">
-            Saree Manufactory
+            Zarika 
           </Link>
           <p className="text-gray-600 mt-2">Welcome back to premium ethnic wear</p>
         </div>
