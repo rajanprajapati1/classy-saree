@@ -48,7 +48,7 @@ export function Header() {
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <Link href="/" className="text-2xl font-light tracking-wider text-black">
-            SAREE MANUFACTORY
+            Zarika 
           </Link>
 
           {/* Desktop Navigation */}
