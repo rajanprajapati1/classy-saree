@@ -449,7 +449,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-4 gap-12">
             <div className="md:col-span-2">
               <h3 className="text-2xl font-light tracking-wider text-black mb-6">
-                Saree Manufactory
+                Zarika 
               </h3>
               <p className="text-gray-600 font-light leading-relaxed mb-8 max-w-md">
                 Premium ethnic wear directly from India's finest textile manufacturers. 
@@ -500,7 +500,7 @@ export default function HomePage() {
           
           <div className="border-t border-gray-200 mt-16 pt-8 text-center">
             <p className="text-gray-600 font-light tracking-wide">
-              © 2024 Saree Manufactory. All rights reserved.
+              © 2024 Zarika . All rights reserved.
             </p>
           </div>
         </div>
