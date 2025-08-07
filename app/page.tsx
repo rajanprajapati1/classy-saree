@@ -49,19 +49,19 @@ export default function HomePage() {
     {
       title: "Modern Sarees",
       subtitle: "Contemporary drapes for the modern woman",
-      image: "/placeholder.svg?height=600&width=800&text=Modern+Sarees+Editorial",
+      image: "https://varavastram.com/cdn/shop/files/31876506_Gold_0.jpg?v=1752052474&width=1445",
       link: "/collections?category=sarees&style=modern"
     },
     {
       title: "Elegant Suits",
       subtitle: "Sophisticated silhouettes for every occasion",
-      image: "/placeholder.svg?height=600&width=800&text=Elegant+Suits+Editorial",
+      image: "https://www.lavanyathelabel.com/cdn/shop/files/1_e8889eaa-f942-4d00-b408-0a9c517b0a8d_1200x.jpg?v=1753948443",
       link: "/collections?category=suits&style=elegant"
     },
     {
       title: "Unstitched Fabrics",
       subtitle: "Premium textiles for bespoke creations",
-      image: "/placeholder.svg?height=600&width=800&text=Premium+Fabrics+Editorial",
+      image: "https://www.wholesalefactory.in/images/product/2024/06/anju-fabrics-fusion-vol-4-viscose-fancy-party-wear-cord-set-6-pcs-catalog--2024-06-08_00_39_10.jpeg",
       link: "/collections?category=fabrics"
     }
   ]
