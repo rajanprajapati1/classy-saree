@@ -23,9 +23,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={poppins.className}>
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-      <body>
+    <html lang="en" >
+      <body className={poppins.className}>
         <AuthProvider>
           <CartProvider>
             <WishlistProvider>
