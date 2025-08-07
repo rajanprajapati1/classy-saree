@@ -13,7 +13,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Saree Manufactory - Premium Ethnic Wear Direct from Manufacturer",
+  title: "Zarika - Premium Ethnic Wear Direct from Manufacturer",
   description: "Discover premium sarees, suits, and ethnic wear directly from our manufacturing unit. Authentic craftsmanship, factory prices, and quality guaranteed."
 }
 
@@ -24,6 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={poppins.className}>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
       <body>
         <AuthProvider>
           <CartProvider>
